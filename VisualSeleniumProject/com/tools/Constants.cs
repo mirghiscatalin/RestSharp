@@ -17,7 +17,8 @@ namespace VisualSeleniumProject.tools
         public static String BROWSER = "iexplorer";
 
         // report path - for print screens and html report 
-        public static String REPORT_PATH = @"D:\Temp\UITestsReport";
+        public static String REPORT_PATH = @"API";
+        //public static String REPORT_PATH = @"D:\Temp\UITestsReport";
         public static String EXTENT_REPORT_FILE = REPORT_PATH + @"ExtentReport.html";
 
         //default application wait time for elements

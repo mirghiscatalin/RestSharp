@@ -77,3 +77,5 @@ C:\Users\catalinmirghis\Desktop\sdl\VisualSeleniumProject - skeleton\VisualSelen
 C:\Users\catalinmirghis\Desktop\sdl\VisualSeleniumProject - skeleton\VisualSeleniumProject\obj\Debug\VisualSeleniumProject.csprojResolveAssemblyReference.cache
 C:\Users\catalinmirghis\Desktop\sdl\VisualSeleniumProject - skeleton\VisualSeleniumProject\obj\Debug\VisualSeleniumProject.dll
 C:\Users\catalinmirghis\Desktop\sdl\VisualSeleniumProject - skeleton\VisualSeleniumProject\obj\Debug\VisualSeleniumProject.pdb
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\nunit.framework.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\nunit.framework.xml
