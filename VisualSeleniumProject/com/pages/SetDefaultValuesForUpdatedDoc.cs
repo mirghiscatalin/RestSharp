@@ -15,9 +15,9 @@ namespace VisualSeleniumProject.com.pages
         String id = "fc3d61a9-8e3a-427f-8def-102affd88210";
 
         //Returning the Properties object
-        public Properties updateProperties()
+        public VisualSeleniumProject.com.pages.mappers.Properties updateProperties()
         {
-            Properties properties = new Properties();
+            VisualSeleniumProject.com.pages.mappers.Properties properties = new VisualSeleniumProject.com.pages.mappers.Properties();
             properties.filename = propertiesFileName;
             return properties;
         }

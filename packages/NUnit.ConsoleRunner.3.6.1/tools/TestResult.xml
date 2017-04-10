@@ -1,48 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2017-04-03 07:51:42Z" end-time="2017-04-03 07:51:48Z" duration="5.803343">
-  <command-line><![CDATA[nunit3-console.exe  C:\\Users\\catalinmirghis\\Desktop\\SDLSpecFlowProject\\VisualSeleniumProject\\bin\\Debug\\VisualSeleniumProject.dll]]></command-line>
-  <test-suite type="Assembly" id="0-1002" name="VisualSeleniumProject.dll" fullname="C:\Users\catalinmirghis\Desktop\SDLSpecFlowProject\VisualSeleniumProject\bin\Debug\VisualSeleniumProject.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-03 07:51:43Z" end-time="2017-04-03 07:51:48Z" duration="5.291338" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-    <environment framework-version="3.0.5797.27534" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\packages\NUnit.ConsoleRunner.3.6.1\tools" machine-name="EVO706" user="catalinmirghis" user-domain="EVO706" culture="en-US" uiculture="en-GB" os-architecture="x64" />
-    <settings>
-      <setting name="DisposeRunners" value="True" />
-      <setting name="WorkDirectory" value="C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\packages\NUnit.ConsoleRunner.3.6.1\tools" />
-      <setting name="ImageRuntimeVersion" value="4.0.30319" />
-      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
-      <setting name="ImageRequiresX86" value="False" />
-      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
-      <setting name="NumberOfTestWorkers" value="8" />
-    </settings>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2017-04-10 12:50:14Z" end-time="2017-04-10 12:50:15Z" duration="0.238338">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\VisualSeleniumProject.dll" ]]></command-line>
+  <test-suite type="Assembly" id="0-1" name="VisualSeleniumProject.dll" fullname="C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\VisualSeleniumProject.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
     <properties>
-      <property name="_PID" value="7068" />
-      <property name="_APPDOMAIN" value="domain-" />
+      <property name="_SKIPREASON" value="No suitable tests found in 'C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\VisualSeleniumProject.dll'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
     </properties>
-    <test-suite type="TestSuite" id="0-1003" name="VisualSeleniumProject" fullname="VisualSeleniumProject" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-03 07:51:43Z" end-time="2017-04-03 07:51:48Z" duration="5.283910" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-      <test-suite type="TestSuite" id="0-1004" name="Features" fullname="VisualSeleniumProject.Features" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-03 07:51:43Z" end-time="2017-04-03 07:51:48Z" duration="5.283838" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-        <test-suite type="TestFixture" id="0-1000" name="APITestingDemoFeature" fullname="VisualSeleniumProject.Features.APITestingDemoFeature" classname="VisualSeleniumProject.Features.APITestingDemoFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-03 07:51:43Z" end-time="2017-04-03 07:51:48Z" duration="5.282479" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-          <properties>
-            <property name="Description" value="API Testing demo" />
-          </properties>
-          <test-case id="0-1001" name="BCMServiceTesting" fullname="VisualSeleniumProject.Features.APITestingDemoFeature.BCMServiceTesting" methodname="BCMServiceTesting" classname="VisualSeleniumProject.Features.APITestingDemoFeature" runstate="Runnable" seed="798259755" result="Passed" start-time="2017-04-03 07:51:43Z" end-time="2017-04-03 07:51:48Z" duration="4.996168" asserts="0">
-            <properties>
-              <property name="Description" value="BCM Service testing" />
-              <property name="Category" value="mytag" />
-            </properties>
-            <output><![CDATA[Given I want to create a new document I make a POST request
--> done: RestSharpSteps.GivenIWantToCreateANewDocumentIMakeAPOSTRequest() (0.5s)
-And To check that the docJson name is "Test DocJson Name" I make a GET request
--> done: RestSharpSteps.GivenToCheckThatTheDocJsonNameIsIMakeAGETRequest("Test DocJson Name") (0.1s)
-And To modify the docJson name I make a PUT request
--> done: RestSharpSteps.GivenToModifyTheDocJsonNameIntoIMakeAPUTRequest() (0.3s)
-And To check that the docJson name has been modified into "test123" I make a GET request
--> done: RestSharpSteps.GivenToCheckThatTheDocJsonNameHasBeenModifiedIntoIMakeAGETRequest("test123") (0.3s)
-When I want to delete the document I make a DELETE request
--> done: RestSharpSteps.WhenIWantToDeleteTheDocumentIMakeADELETERequest() (0.1s)
-Then To check that the document was deleted I make a PUT request
--> done: RestSharpSteps.ThenToCheckThatTheDocumentWasDeletedIMakeAPUTRequest() (0.3s)
-]]></output>
-          </test-case>
-        </test-suite>
-      </test-suite>
-    </test-suite>
+    <reason>
+      <message>No suitable tests found in 'C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Debug\VisualSeleniumProject.dll'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
   </test-suite>
 </test-run>

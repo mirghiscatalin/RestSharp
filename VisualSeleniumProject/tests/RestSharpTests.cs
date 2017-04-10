@@ -1,27 +1,39 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using VisualSeleniumProject.tools;
 using VisualSeleniumProject.pages;
 using VisualSeleniumProject.com.steps;
 using System.Diagnostics;
 using VisualSeleniumProject.tests;
+using System.Configuration;
+using NUnit.Framework;
 
 namespace VisualSeleniumProject
 {
-    [TestClass]
+   
     public class PocGoogleTest : BaseTest
     {
         //test data
         private String baseUrl;
         private String searchTerm;
+        private String environment;
 
         //pages used
         private RestSharpSteps restSharpSteps;
         private AbstractPage abstractPage;
+        private AbstractTest test;
 
 
 
-        [TestInitialize]
+        [OneTimeSetUp]
+        public void OneSetUp()
+        {
+            test = new AbstractTest();
+            environment = test.InitializeEnvironment(TestContext.Parameters["Environment"], "Environment");
+            baseUrl = test.InitializeEnvironment(TestContext.Parameters["BaseUrl"], "Base_URL");
+}
+
+        [SetUp]
         public void before()
         {
             //init test data
@@ -38,12 +50,13 @@ namespace VisualSeleniumProject
         }
 
 
-        [TestMethod]
+        [Test]
         public void restSharpTest()
         {
             //init used pages
             extentTestReport = extentReports
              .StartTest("Google search");
+            extentReports.AddSystemInfo("Environment", ConfigurationManager.AppSettings["Environment"]);
             restSharpSteps = new RestSharpSteps(driver, extentTestReport);
             abstractPage = new AbstractPage(driver);
             //abstractPage.navigateTo(baseUrl);
@@ -62,7 +75,7 @@ namespace VisualSeleniumProject
             //SoftAssert.verifyTrue("Title is not as expected", "Hamster", extractedTitle );
         }
 
-        [TestCleanup]
+        [TearDown]
         public void after()
         {
             //Debug.Assert(SoftAssert.getErrorCount().CompareTo(0) == 0, "Error: Errors were found in test. Count: " + SoftAssert.getErrorCount());
@@ -82,7 +95,7 @@ namespace VisualSeleniumProject
 
         }
 
-        [ClassCleanup]
+        [OneTimeTearDown]
         public static void ClassCleanup()
         {
             System.Diagnostics.Process.Start(Constants.EXTENT_REPORT_FILE);

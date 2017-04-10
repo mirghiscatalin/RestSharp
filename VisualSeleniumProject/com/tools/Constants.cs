@@ -9,7 +9,7 @@ namespace VisualSeleniumProject.tools
     class Constants
     {
 
-        public static String BASE_URL = "http://fixer.io/latest";
+        //public static String BASE_URL = "http://fixer.io/latest";
         //public static String BASE_URL = "https://www.northernsafety-qa.com/";
 
         //browser selection - set in BaseTest

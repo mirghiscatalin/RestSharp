@@ -1,0 +1,14 @@
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\IEDriverServer-license.txt
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\IEDriverServer.exe
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\VisualSeleniumProject.dll.config
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\VisualSeleniumProject.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\nunit.framework.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\RelevantCodes.ExtentReports.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\RestSharp.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\WebDriver.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\WebDriver.Support.dll
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\nunit.framework.xml
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\RestSharp.xml
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\WebDriver.xml
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\bin\Local\WebDriver.Support.xml
+C:\Users\catalinmirghis\Desktop\VisualSeleniumProject - skeleton\VisualSeleniumProject\obj\Local\VisualSeleniumProject.dll

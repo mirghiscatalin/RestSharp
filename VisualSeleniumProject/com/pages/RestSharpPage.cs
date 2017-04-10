@@ -57,12 +57,12 @@ namespace VisualSeleniumProject.pages
             IRestResponse response = restObj.Execute(request);
 
             //Deserialising Request
-           /* RestSharp.Deserializers.JsonDeserializer deserialiser = new RestSharp.Deserializers.JsonDeserializer();
-            createDocDeserialiser createDocDeserialiser = deserialiser.Deserialize<createDocDeserialiser>(response);
+            /* RestSharp.Deserializers.JsonDeserializer deserialiser = new RestSharp.Deserializers.JsonDeserializer();
+             createDocDeserialiser createDocDeserialiser = deserialiser.Deserialize<createDocDeserialiser>(response);
 
-            //Working with objects
-            String bcmDocumentId = createDocDeserialiser.bcmDocumentId;
-            return bcmDocumentId;*/
+             //Working with objects
+             String bcmDocumentId = createDocDeserialiser.bcmDocumentId;
+             return bcmDocumentId;*/
 
             int putResponseCode = (int)response.StatusCode;
             return putResponseCode.ToString();
